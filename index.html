@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portforio</title>
+    <meta name="discription" content="TECHNICAL LABです">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script  src="js/jquery.js"></script>
+</head>
+
+<body>
+    <!-- ヘッダー -->
+    <header class="header w_inner">
+        <canvas class="background"></canvas>
+        <div id="canvas-container">
+            <canvas id="sineCanvas" width="800" height="300"></canvas>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#jump-to-introduction">概要</a></li>
+                <li><a href="#jump-to-experience">実績</a></li>
+                <li><a href="#jump-to-delivarable">事業</a></li>
+                <li><a href="#jump_to_information">お問い合せ</a></li>
+            </ul>
+        </nav>
+        <div class="header_img">
+            <img src="img/header.jpg" alt="">
+            <h2>TECHNICAL LAB</h2>
+        </div>
+    </header>
+
+    <!-- メイン -->
+    <div class="container w_inner">
+
+        <!-- イントロダクション -->
+        <div class="introduction" id="jump-to-introduction">
+            <h3>概要</h3>
+            <ul>
+                <li>代　表　：河瀬　翔太</li>
+                <li>生年月日：1996年5月27日</li>
+                <li>所在地　：東京都新宿区</li>
+            </ul>
+        </div>
+        <div class="background_image_1"></div>
+
+        <!-- エクスペリエンス -->
+        <div class="experience" id="jump-to-experience">
+            <h4>実績</h4>
+            <ul>
+                <li>2019年　　ITエンジニアとして自社開発系企業に入社</li>
+                <li>2022年　　TECHNICAL LABを設立し独立</li>
+            </ul>
+        </div>
+        <div class="background_image_2"></div>
+
+        <!-- デリヴァラブル -->
+        <div class="derivaerable" id="jump-to-delivarable">
+            <h5>事業</h5>
+            <div class="service_block">
+                <div class="service scroll-up scroll-up_1">
+                    <img src="img/img1.jpg" alt="サービス１">
+                    <div class="ttl">ホームページ制作</div>
+                    <div class="explain">LPやHP、WordPressの制作受注</div>
+                </div>
+                <div class="service scroll-up scroll-up_2">
+                    <img src="img/img2.jpg" alt="サービス１">
+                    <div class="ttl">iPhoneアプリ制作</div>
+                    <div class="explain">業務系のアプリケーション開発の受注</div>
+                </div>
+                <div class="service scroll-up scroll-up_3">
+                    <img src="img/img3.jpg" alt="サービス１">
+                    <div class="ttl">自動売買ツール開発</div>
+                    <div class="explain">インジケーター、サインツール、自動売買ツールの制作受注</div>
+                </div>
+            </div>
+        </div>
+        <div class="background_image_3"></div>
+
+        <!-- インフォメーション -->
+        <div class="information" id="jump_to_information">
+            <h6>お問い合わせ</h6>
+            <ul>
+                <li><a href="https://twitter.com/technical_lab_">twitter</a></li>
+                <li><a href="https://coconala.com/mypage/user">coconala</a></li>
+                <li><a href="https://note.com/technical_lab">note</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="copy">
+            &copy;2022 my portfolio
+        </div>
+    </footer>
+</body>
+    <!-- javaScriptのimport -->
+    <script src="js/javascript.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+</html>
